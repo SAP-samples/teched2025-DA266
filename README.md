@@ -26,7 +26,7 @@ Provide the exercise content here directly in README.md using [markdown](https:/
 
 - A. Sharing Data Products to SAP Databricks
     - Exercise
-        - 
+        - 01 Share_Data_Product_to_SAP_Databricks
 - B. Cashflow prediction
     - Exercise
         - [00_Data Understanding.ipynb](exercises/ex0/)
