@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2025 session called Session ID - Session Title.  
+This repository contains the material for the SAP TechEd 2025 session called DA266 - Operationalizing AI with SAP Databricks in SAP Business Data Cloud. It covers end-to-end workflows and scripts for two main data product scenarios: **Cashflow Prediction** and **Payment Delay Prediction**. The repository is organized to support both learning (Exercise) and reference (Solution) use cases, with each scenario broken down into modular notebooks that guide you through the data science lifecycle. 
 
 ## Overview
 
@@ -10,25 +10,47 @@ This session introduces attendees to...
 
 ## Requirements
 
-The requirements to follow the exercises in this repository are...
+- Access to SAP Business Data Cloud Cockpit
+- Access to SAP Databricks with Unity Catalog enabled.
+- Required Python packages (see the first cells in each notebook for installation commands).
+- Appropriate permissions to create secret scopes and shares in SAP Databricks.
 
 ## Exercises
 
 Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
 
-- [Getting Started](exercises/ex0/)
-- [Exercise 1 - First Exercise Description](exercises/ex1/)
-    - [Exercise 1.1 - Exercise 1 Sub Exercise 1 Description](exercises/ex1#exercise-11-sub-exercise-1-description)
-    - [Exercise 1.2 - Exercise 1 Sub Exercise 2 Description](exercises/ex1#exercise-12-sub-exercise-2-description)
-- [Exercise 2 - Second Exercise Description](exercises/ex2/)
-    - [Exercise 2.1 - Exercise 2 Sub Exercise 1 Description](exercises/ex2#exercise-21-sub-exercise-1-description)
-    - [Exercise 2.2 - Exercise 2 Sub Exercise 2 Description](exercises/ex2#exercise-22-sub-exercise-2-description)
+1. **Start with the Exercise notebooks** to follow the guided workflow and implement each step yourself.
+2. **Refer to the Solution notebooks** for completed code and best practices.
+3. **Follow the notebook order** (as indicated by the numbering) for a logical progression from data understanding to publishing a data product.
+4. **Publishing to BDC**: The final notebook in each scenario demonstrates how to expose your results as a data product using Delta Sharing and the SAP BDC Connect SDK.
 
+
+- Cashflow prediction
+    - Exercise
+        - [00_Data Understanding.ipynb](exercises/ex0/)
+        - 01_Cash_Liquidity_Data_Preparation.ipynb
+        - 02_Cash_Liquidity_Training.ipynb
+        - 03_Cash_Liqudity_Forecast.ipynb
+        - 04_Publish_Data_Product.ipynb
+        - Time Series Forecast Notebook Schedule.ipynb
+    - Solution
+        - 01_Cash_Liquidity_Data_Preparation.ipynb
+        - 02_Cash_Liquidity_Training.ipynb
+        - 03_Cash_Liqudity_Forecast.ipynb
+        - 04_Publish_Data_Product.ipynb
+        - Time Series Forecast Notebook Schedule.ipynb
+- Payment delay prediction
+    - Exercise
+        - 01_Payment Delay Data Preparation.ipynb
+        - 02_Payment Delay Training.ipynb
+        - 03_Payment Delay Inference.ipynb
+        - 04_Publish_Data_Product.ipynb
+    - Solution
+        - 01_Payment Delay Data Preparation.ipynb
+        - 02_Payment Delay Training.ipynb
+        - 03_Payment Delay Inference.ipynb
+        - 04_Publish_Data_Product.ipynb
   
-**OR** Link to the Tutorial Navigator for example...
-
-Start the exercises [here](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html).
-
 **IMPORTANT**
 
 Your repo must contain the .reuse and LICENSES folder and the License section below. DO NOT REMOVE the section or folders/files. Also, remove all unused template assets(images, folders, etc) from the exercises folder. 
