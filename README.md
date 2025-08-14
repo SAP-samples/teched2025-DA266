@@ -24,8 +24,10 @@ Provide the exercise content here directly in README.md using [markdown](https:/
 3. **Follow the notebook order** (as indicated by the numbering) for a logical progression from data understanding to publishing a data product.
 4. **Publishing to BDC**: The final notebook in each scenario demonstrates how to expose your results as a data product using Delta Sharing and the SAP BDC Connect SDK.
 
-
-- Cashflow prediction
+- A. Sharing Data Products to SAP Databricks
+    - Exercise
+        - 
+- B. Cashflow prediction
     - Exercise
         - [00_Data Understanding.ipynb](exercises/ex0/)
         - 01_Cash_Liquidity_Data_Preparation.ipynb
@@ -39,7 +41,7 @@ Provide the exercise content here directly in README.md using [markdown](https:/
         - 03_Cash_Liqudity_Forecast.ipynb
         - 04_Publish_Data_Product.ipynb
         - Time Series Forecast Notebook Schedule.ipynb
-- Payment delay prediction
+- C. Payment delay prediction
     - Exercise
         - 01_Payment Delay Data Preparation.ipynb
         - 02_Payment Delay Training.ipynb
