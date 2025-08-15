@@ -19,4 +19,15 @@ This chapter describes the steps how Data Products in SAP Business Data Cloud (S
 5. Click on the *Share*-button to open the dialog
 6. 
 
+![../images/img_10.jpg](../../images/img_010.jpg)
+![../images/img_10.jpg](../../images/img_015.jpg)
+![../images/img_10.jpg](../../images/img_020.jpg)
+![../images/img_10.jpg](../../images/img_025.jpg)
+![../images/img_10.jpg](../../images/img_030.jpg)
+![../images/img_10.jpg](../../images/img_035.jpg)
+![../images/img_10.jpg](../../images/img_040.jpg)
+![../images/img_10.jpg](../../images/img_045.jpg)
+![../images/img_10.jpg](../../images/img_050.jpg)
+![../images/img_10.jpg](../../images/img_055.jpg)
+
 ## Summary
