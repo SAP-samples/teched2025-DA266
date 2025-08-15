@@ -1,3 +1,5 @@
+# Sharing Data Products to SAP Databricks
+
 ## Overview
 This chapter describes the steps how Data Products in SAP Business Data Cloud (SAP BDC) are shared with SAP Databricks. We will use the **Delta Sharing**, which is an open protocol developed by Databricks and the Linux Foundation that enables secure, real-time data sharing across different platforms, clouds, and regions. It’s designed to break down data silos and make collaboration easier — WITHOUT requiring to copy data from one system to another.
 
