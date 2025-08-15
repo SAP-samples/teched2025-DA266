@@ -16,6 +16,18 @@ This session introduces attendees to...
 - Appropriate permissions to create secret scopes and shares in SAP Databricks.
 
 ## Exercises
+>[!TIP]
+>1. **Start with the Exercise notebooks** to follow the guided workflow and implement each step yourself.
+>2. **Refer to the Solution notebooks** for completed code and best practices.
+>3. **Follow the notebook order** (as indicated by the numbering) for a logical progression from data understanding to publishing a data product.
+>4. **Publishing to BDC**: The final notebook in each scenario demonstrates how to expose your results as a data product using Delta Sharing and the SAP BDC Connect SDK.
+
+> [!IMPORTANT]
+>- **All users share the same UNITY CATALOG**, which is already pre-created in the system.
+>- To get data separation, **each user creates his own SCHEMA** within the shared UNITY CATALOG. 
+
+<br>
+
 - A. Sharing Data Products to SAP Databricks
     - Exercise
         - 01 Share_Data_Product_to_SAP_Databricks
@@ -45,15 +57,7 @@ This session introduces attendees to...
         - 03_Payment Delay Inference.ipynb
         - 04_Publish_Data_Product.ipynb
 
->[!TIP]
->1. **Start with the Exercise notebooks** to follow the guided workflow and implement each step yourself.
->2. **Refer to the Solution notebooks** for completed code and best practices.
->3. **Follow the notebook order** (as indicated by the numbering) for a logical progression from data understanding to publishing a data product.
->4. **Publishing to BDC**: The final notebook in each scenario demonstrates how to expose your results as a data product using Delta Sharing and the SAP BDC Connect SDK.
 
-> [!IMPORTANT]
->- **All users share the same UNITY CATALOG**, which is already pre-created in the system.
->- To get data separation, **each user creates his own SCHEMA** within the shared UNITY CATALOG. 
 
 
 
