@@ -44,16 +44,20 @@ This session introduces attendees to...
         - 02_Payment Delay Training.ipynb
         - 03_Payment Delay Inference.ipynb
         - 04_Publish_Data_Product.ipynb
-  
-**IMPORTANT**
-1. **Start with the Exercise notebooks** to follow the guided workflow and implement each step yourself.
-2. **Refer to the Solution notebooks** for completed code and best practices.
-3. **Follow the notebook order** (as indicated by the numbering) for a logical progression from data understanding to publishing a data product.
-4. **Publishing to BDC**: The final notebook in each scenario demonstrates how to expose your results as a data product using Delta Sharing and the SAP BDC Connect SDK.
 
-5. **All users share the same UNITY CATALOG**, which is already pre-created in the system.
-6. To get data separation, **each user creates his own SCHEMA** within the shared UNITY CATALOG. 
+>[!NOTE]
+>**IMPORTANT**
+>1. **Start with the Exercise notebooks** to follow the guided workflow and implement each step yourself.
+>2. **Refer to the Solution notebooks** for completed code and best practices.
+>3. **Follow the notebook order** (as indicated by the numbering) for a logical progression from data understanding to publishing a data product.
+>4. **Publishing to BDC**: The final notebook in each scenario demonstrates how to expose your results as a data product using Delta Sharing and the SAP BDC Connect SDK.
+>5. **All users share the same UNITY CATALOG**, which is already pre-created in the system.
+>6. To get data separation, **each user creates his own SCHEMA** within the shared UNITY CATALOG. 
 
+
+
+> [NOTE] 
+> Useful information that users should know, even when skimming content.
 
 ## Contributing
 Please read the [CONTRIBUTING.md](./CONTRIBUTING.md) to understand the contribution guidelines.
