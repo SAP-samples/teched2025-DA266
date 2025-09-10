@@ -12,8 +12,9 @@ This chapter describes the steps how Data Products in SAP Business Data Cloud (S
 - You need to have a BDC Admin role with "Delta Share" privilege.
 
 ## Excercise
+
 > [!IMPORTANT]
->- To get data separation, **each user creates his own SCHEMA** within the shared UNITY CATALOG. 
+>- In the following exercise, you will learn how to share a Data Product to SAP Databricks.
 >- Please apply the steps for the data products **Cashflow** and **Entry View Journal Entry**.
 
 1. Login to SAP Business Data Cloud Cockpit
