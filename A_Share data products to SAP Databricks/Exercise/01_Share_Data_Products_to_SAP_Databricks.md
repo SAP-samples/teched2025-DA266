@@ -5,13 +5,17 @@ This chapter describes the steps how Data Products in SAP Business Data Cloud (S
 
 
 ## Prequisites
-
+- You have an BDC system landscape formation with **SAP S/4HANA Cloud Private Edition**
 - Following Data Products are already installed and available in the SAP Business Data Cloud catalog:
     - **Cashflow**
-    - tbd
+    - **Entry View Journal Entry**
 - You need to have a BDC Admin role with "Delta Share" privilege.
 
 ## Excercise
+> [!IMPORTANT]
+>- To get data separation, **each user creates his own SCHEMA** within the shared UNITY CATALOG. 
+>- Please apply the steps for the data products **Cashflow** and **Entry View Journal Entry**.
+
 1. Login to SAP Business Data Cloud Cockpit
 2. Navigate to the Data Catalog
 3. Search for the data product **Cashflow**
