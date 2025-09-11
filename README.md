@@ -24,10 +24,15 @@ This session introduces attendees to...
 
 > [!IMPORTANT]
 > For this workshop please use the following parameters:
->- **`workspace`** - ws_da266
->- **`<BDC_SHARE_NAME>`** - bdc_share_da266
->- **`<CATALOG_NAME>`** - uc_delayed_payment
->- **`<SCHEMA_NAME>`** - your assigned group name, e.g. grp01
+>- **`databricks workspace`** - ws_da266
+>- Excercise 1:
+>   - **`<BDC_SHARE_NAME>`** - bdc_share_cashflow
+>   - **`<CATALOG_NAME>`** - uc_cash_liquidity_forecast
+>   - **`<SCHEMA_NAME>`** - your assigned group name, e.g. grp01
+>- Excercise 2:
+>   - **`<BDC_SHARE_NAME>`** - bdc_share_payment
+>   - **`<CATALOG_NAME>`** - uc_delayed_payment
+>   - **`<SCHEMA_NAME>`** - your assigned group name, e.g. grp01
 
 <br>
 
