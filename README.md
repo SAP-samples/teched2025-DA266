@@ -23,8 +23,10 @@ This session introduces attendees to...
 >4. **Publishing to BDC**: The final notebook in each scenario demonstrates how to expose your results as a data product using Delta Sharing and the SAP BDC Connect SDK.
 
 > [!IMPORTANT]
->- **All users share the same UNITY CATALOG**, which is already pre-created in the system.
->- To get data separation, **each user creates his own SCHEMA** within the shared UNITY CATALOG. 
+> For this workshop please use the following parameters:
+>- **workspace** - teched266
+>- **\<UNITY_CATALOG\>** - uc_delayed_payment
+>- **\<SCHEMA\>** - your assigned group name, e.g. grp01
 
 <br>
 
