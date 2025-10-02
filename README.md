@@ -21,9 +21,13 @@ Before running the exercises, following items must be provided beforehand
 - **Appropriate permissions to create schema within the above mentioned catalogs**
     - each user will have to create his own schema to run exercises
     - e.g. uc_cash_liquidity_forecast.grp**01** and uc_delayed_payment.grp**01**
-- **Required Python packages**
-    - `sap-bdc-connect-sdk`
-        - SCOPE SECRET are created for 
+- **Access to required Python packages**
+    - `sap-bdc-connect-sdk` 
+- **Configured SECRET SCOPE** 
+    - This step has already been done by the administrator to facilitate the sharing process. However, if you need to do it on you own you can follow the steps described here to create a secret scope: To create a secret scope you can either use the following URL `https://<databricks-instance>#secrets/createScope`. Replace `<databricks-instance>` with the workspace URL of your Databricks deployment.
+    - Alternatively, you can run the following command in the terminal by clicking on the terminal icon on the lower right corner: `databricks secrets create-scope sap-bdc-connect-sdk`. 
+    - The secret scope only has to be created once and can be made accessible to all workspace users by either toggling `manage principal` to `all workspace users` or via the terminal using the following command `databricks secrets put-acl sap-bdc-connect-sdk users READ`. To check whether the assignment worked, you can then use the command `databricks secrets list-acls sap-bdc-connect-sdk`.
+    - A full explanation can be found here https://docs.databricks.com/aws/en/security/secrets/example-secret-workflow     
 
 ## Exercises
 >[!TIP]
