@@ -20,6 +20,7 @@ Before running the exercises, following items must be provided beforehand
     - `uc_delayed_payment`
 - **Appropriate permissions to create schema within the above mentioned catalogs**
     - each user will have to create his own schema to run exercises
+    - the schema name follows the pattern `grp`+`<last_2_digit_of_user>`
     - e.g. uc_cash_liquidity_forecast.grp**01** and uc_delayed_payment.grp**01**
 - **Access to required Python packages**
     - `sap-bdc-connect-sdk` 
