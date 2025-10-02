@@ -16,15 +16,10 @@ This session introduces attendees to...
 - Appropriate permissions to create secret scopes and shares in SAP Databricks.
 
 ## Exercises
->[!TIP]
->1. **Start with the Exercise notebooks** to follow the guided workflow and implement each step yourself.
->2. **Refer to the Solution notebooks** for completed code and best practices.
->3. **Follow the notebook order** (as indicated by the numbering) for a logical progression from data understanding to publishing a data product.
->4. **Publishing to BDC**: The final notebook in each scenario demonstrates how to expose your results as a data product using Delta Sharing and the SAP BDC Connect SDK.
-
+For this workshop please use the following parameters:
 > [!IMPORTANT]
-> For this workshop please use the following parameters:
->- **`databricks workspace`** - ws_da266
+> SAP Databricks system: https://accounts.cloud.databricks.com/select-workspace?account_id=779c1dfb-54a0-4c0b-ab10-657b3ea0e70b
+>- **Workspace`** - ws_da266
 >- Excercise 1:
 >   - **`<BDC_SHARE_NAME>`** - bdc_share_cashflow
 >   - **`<CATALOG_NAME>`** - uc_cash_liquidity_forecast
@@ -33,8 +28,14 @@ This session introduces attendees to...
 >   - **`<BDC_SHARE_NAME>`** - bdc_share_payment
 >   - **`<CATALOG_NAME>`** - uc_delayed_payment
 >   - **`<SCHEMA_NAME>`** - your assigned group name, e.g. grp01
-
 <br>
+
+>[!TIP]
+>1. **Start with the Exercise notebooks** to follow the guided workflow and implement each step yourself.
+>2. **Refer to the Solution notebooks** for completed code and best practices.
+>3. **Follow the notebook order** (as indicated by the numbering) for a logical progression from data understanding to publishing a data product.
+>4. **Publishing to BDC**: The final notebook in each scenario demonstrates how to expose your results as a data product using Delta Sharing and the SAP BDC Connect SDK.
+
 
 - A. Sharing Data Products to SAP Databricks
     - Exercise
