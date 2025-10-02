@@ -18,7 +18,7 @@ This session introduces attendees to...
 ## Exercises
 For this workshop please use the following parameters:
 > [!IMPORTANT]
-> SAP Databricks system: https://accounts.cloud.databricks.com/select-workspace?account_id=779c1dfb-54a0-4c0b-ab10-657b3ea0e70b
+>- **SAP Databricks Instance**: https://accounts.cloud.databricks.com/select-workspace?account_id=779c1dfb-54a0-4c0b-ab10-657b3ea0e70b
 >- **Workspace`** - ws_da266
 >- Excercise 1:
 >   - **`<BDC_SHARE_NAME>`** - bdc_share_cashflow
