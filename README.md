@@ -14,14 +14,16 @@ Before running the exercises, following items must be provided beforehand
 - **Access to SAP Databricks**: 
     - https://accounts.cloud.databricks.com/select-workspace?account_id=779c1dfb-54a0-4c0b-ab10-657b3ea0e70b
 - **Users and Password for SAP Databricks**
-    - e.g. AC229588U**01**@sapexperienceacademy.com
+    - e.g. `AC229588U01@sapexperienceacademy.com`
 - **Access to the Unitity Catalogs**:
     - `uc_cash_liquidity_forecast`
     - `uc_delayed_payment`
 - **Appropriate permissions to create schema within the above mentioned catalogs**
     - each user will have to create his own schema to run exercises
-    - the schema name follows the pattern `grp`+`<last_2_digit_of_user>`
-    - e.g. uc_cash_liquidity_forecast.grp**01** and uc_delayed_payment.grp**01**
+    - the schema name follows the pattern `<catalog_name>.grp.`+`<last_2_digits_of_user>`
+    - e.g. user AC229588U**01** will create correspondingly the schemas
+        - uc_cash_liquidity_forecast.grp**01** 
+        - uc_delayed_payment.grp**01**
 - **Access to required Python packages**
     - `sap-bdc-connect-sdk` 
 - **Configured SECRET SCOPE** 
