@@ -15,11 +15,14 @@ This session introduces attendees to...
 - Required Python packages (see the first cells in each notebook for installation commands).
 - Appropriate permissions to create secret scopes and shares in SAP Databricks.
 
-## Exercises
 For this workshop please use the following parameters:
 > [!IMPORTANT]
 >- **SAP Databricks Instance**: https://accounts.cloud.databricks.com/select-workspace?account_id=779c1dfb-54a0-4c0b-ab10-657b3ea0e70b
->- **Workspace`** - ws_da266
+>- **Users** - Will be provided by your session host
+>- **Unity Catalog**:
+>   - `uc_cash_liquidity_forecast`
+>   - `uc_deltayed_payment`
+
 >- Excercise 1:
 >   - **`<BDC_SHARE_NAME>`** - bdc_share_cashflow
 >   - **`<CATALOG_NAME>`** - uc_cash_liquidity_forecast
@@ -28,8 +31,8 @@ For this workshop please use the following parameters:
 >   - **`<BDC_SHARE_NAME>`** - bdc_share_payment
 >   - **`<CATALOG_NAME>`** - uc_delayed_payment
 >   - **`<SCHEMA_NAME>`** - your assigned group name, e.g. grp01
-<br>
 
+## Exercises
 >[!TIP]
 >1. **Start with the Exercise notebooks** to follow the guided workflow and implement each step yourself.
 >2. **Refer to the Solution notebooks** for completed code and best practices.
