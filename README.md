@@ -18,19 +18,14 @@ This session introduces attendees to...
 For this workshop please use the following parameters:
 > [!IMPORTANT]
 >- **SAP Databricks Instance**: https://accounts.cloud.databricks.com/select-workspace?account_id=779c1dfb-54a0-4c0b-ab10-657b3ea0e70b
->- **Users** - Will be provided by your session host
 >- **Unity Catalog**:
 >   - `uc_cash_liquidity_forecast`
->   - `uc_deltayed_payment`
-
->- Excercise 1:
->   - **`<BDC_SHARE_NAME>`** - bdc_share_cashflow
->   - **`<CATALOG_NAME>`** - uc_cash_liquidity_forecast
->   - **`<SCHEMA_NAME>`** - your assigned group name, e.g. grp01
->- Excercise 2:
->   - **`<BDC_SHARE_NAME>`** - bdc_share_payment
->   - **`<CATALOG_NAME>`** - uc_delayed_payment
->   - **`<SCHEMA_NAME>`** - your assigned group name, e.g. grp01
+>   - `uc_delayed_payment`
+>- **Schema per User**
+>   - Users + Password - will be provided by your session host
+>       - e.g. AC229588U**01**@sapexperienceacademy.com
+>   - Each user shall create use his own Schema for running the exercises
+>       - e.g. uc_cash_liquidity_forecast.grp**01** and uc_delayed_payment.grp**01**
 
 ## Exercises
 >[!TIP]
