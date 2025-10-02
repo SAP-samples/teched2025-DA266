@@ -9,23 +9,21 @@ This repository contains the material for the SAP TechEd 2025 session called DA2
 This session introduces attendees to...
 
 ## Requirements
-
-- Access to SAP Business Data Cloud Cockpit
-- Access to SAP Databricks with Unity Catalog enabled.
-- Required Python packages (see the first cells in each notebook for installation commands).
-- Appropriate permissions to create secret scopes and shares in SAP Databricks.
-
-For this workshop please use the following parameters:
-> [!IMPORTANT]
->- **SAP Databricks Instance**: https://accounts.cloud.databricks.com/select-workspace?account_id=779c1dfb-54a0-4c0b-ab10-657b3ea0e70b
->- **Unity Catalog**:
->   - `uc_cash_liquidity_forecast`
->   - `uc_delayed_payment`
->- **Schema per User**
->   - Users + Password - will be provided by your session host
->       - e.g. AC229588U**01**@sapexperienceacademy.com
->   - Each user shall create use his own Schema for running the exercises
->       - e.g. uc_cash_liquidity_forecast.grp**01** and uc_delayed_payment.grp**01**
+Before running the exercises, following items must be provided beforehand
+- **Access to SAP Business Data Cloud Cockpit**
+- **Access to SAP Databricks**: 
+    - https://accounts.cloud.databricks.com/select-workspace?account_id=779c1dfb-54a0-4c0b-ab10-657b3ea0e70b
+- **Users and Password for SAP Databricks**
+    - e.g. AC229588U**01**@sapexperienceacademy.com
+- **Access to the Unitity Catalogs**:
+    - `uc_cash_liquidity_forecast`
+    - `uc_delayed_payment`
+- **Appropriate permissions to create schema within the above mentioned catalogs**
+    - each user will have to create his own schema to run exercises
+    - e.g. uc_cash_liquidity_forecast.grp**01** and uc_delayed_payment.grp**01**
+- **Required Python packages**
+    - `sap-bdc-connect-sdk`
+        - SCOPE SECRET are created for 
 
 ## Exercises
 >[!TIP]
