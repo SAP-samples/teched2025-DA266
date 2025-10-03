@@ -75,7 +75,7 @@ Before running the exercises, following items must be provided beforehand
         - 01 Share_Data_Product_to_SAP_Databricks
 - Cashflow prediction
     - Exercise
-        - [00_Data Understanding.ipynb](exercises/ex0/)
+        - [00_Data Understanding.ipynb](Cashflow prediction/exercises/00_Data_Understanding.ipynb)
         - 01_Cash_Liquidity_Data_Preparation.ipynb
         - 02_Cash_Liquidity_Training.ipynb
         - 03_Cash_Liqudity_Forecast.ipynb
