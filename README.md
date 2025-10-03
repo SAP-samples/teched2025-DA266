@@ -2,10 +2,10 @@
 
 ## Description
 
-This repository contains the material for the [SAP TechEd 2025](https://www.sap.com/events/teched.html) session called DA266 - Operationalizing AI with SAP Databricks in SAP Business Data Cloud. It covers end-to-end workflows and scripts for two main data product scenarios `Cashflow Prediction` and `Payment Delay Prediction`. The repository is organized to support both learning (Exercise) and reference (Solution) use cases, with each scenario broken down into modular notebooks that guide you through the data science lifecycle. 
+This repository contains the material for the [SAP TechEd 2025](https://www.sap.com/events/teched.html) session called DA266 - Operationalizing AI with SAP Databricks in SAP Business Data Cloud. It covers end-to-end workflows and scripts for two main user case scenarios `Cashflow Prediction` and `Payment Delay Prediction`. The repository is organized to support both learning (Exercise) and reference (Solution) use cases, with each scenario broken down into modular notebooks that guide you through the data science lifecycle. 
 
 ## Overview
-#### Cashflow Prediction
+#### Use Case: Cashflow Prediction
 This scenario demonstrates how to build a data product for forecasting cash liquidity. The workflow includes:
 
 - 00_Data Understanding.ipynb: Explore and understand the transactional cashflow data.
@@ -17,7 +17,7 @@ This scenario demonstrates how to build a data product for forecasting cash liqu
 Time Series Forecast Notebook Schedule.ipynb: Provides a schedule and overview for running the notebooks in sequence.
 Each notebook in the Exercise folder is designed for hands-on learning, while the Solution folder provides reference implementations.
 
-#### Payment Delay Prediction
+#### Use Case: PUayment Delay Prediction
 This advanced scenario focuses on predicting payment delays using machine learning. 
 Furthermore, the prediction results will be interpreted and explained along with their key drivers. The workflow includes:
 
@@ -70,10 +70,10 @@ Before running the exercises, following items must be provided beforehand
 >4. **Publishing to BDC**: The final notebook in each scenario demonstrates how to expose your results as a data product using Delta Sharing and the SAP BDC Connect SDK.
 
 
-- A. Sharing Data Products to SAP Databricks
+- Sharing Data Products to SAP Databricks
     - Exercise
         - 01 Share_Data_Product_to_SAP_Databricks
-- B. Cashflow prediction
+- Cashflow prediction
     - Exercise
         - [00_Data Understanding.ipynb](exercises/ex0/)
         - 01_Cash_Liquidity_Data_Preparation.ipynb
@@ -87,17 +87,19 @@ Before running the exercises, following items must be provided beforehand
         - 03_Cash_Liqudity_Forecast.ipynb
         - 04_Publish_Data_Product.ipynb
         - Time Series Forecast Notebook Schedule.ipynb
-- C. Payment delay prediction
+- Payment delay prediction
     - Exercise
         - 01_Payment Delay Data Preparation.ipynb
         - 02_Payment Delay Training.ipynb
-        - 03_Payment Delay Inference.ipynb
-        - 04_Publish_Data_Product.ipynb
+        - 03_Payment Delay Inference.ipyn
+        - 04_Payment Delay Explain.ipynb
+        - 05_Publish_Data_Product.ipynb
     - Solution
         - 01_Payment Delay Data Preparation.ipynb
         - 02_Payment Delay Training.ipynb
         - 03_Payment Delay Inference.ipynb
-        - 04_Publish_Data_Product.ipynb
+        - 04_Payment Delay Explain.ipynb
+        - 05_Publish_Data_Product.ipynb
 
 
 
