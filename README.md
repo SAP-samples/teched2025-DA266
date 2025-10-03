@@ -14,6 +14,7 @@ Before running the exercises, following items must be provided beforehand
 - **Access to SAP Databricks**: 
     - https://accounts.cloud.databricks.com/select-workspace?account_id=779c1dfb-54a0-4c0b-ab10-657b3ea0e70b
 - **Users and Password for SAP Databricks**
+    - should be provided by your workshop host
     - e.g. `AC229588U01@sapexperienceacademy.com`
 - **Access to the Unitity Catalog**:
     - `uc_cash_liquidity_forecast`
