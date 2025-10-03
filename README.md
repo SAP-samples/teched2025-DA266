@@ -75,17 +75,16 @@ Before running the exercises, following items must be provided beforehand
         - 01 Share_Data_Product_to_SAP_Databricks
 - Cashflow prediction
     - Exercise
-        - [00_Data Understanding.ipynb](./Cashflow%20prediction/Exercise/00_Data_Understanding.ipynb)
-        - 01_Cash_Liquidity_Data_Preparation.ipynb
-        - 02_Cash_Liquidity_Training.ipynb
-        - 03_Cash_Liqudity_Forecast.ipynb
-        - 04_Publish_Data_Product.ipynb
-        - Time Series Forecast Notebook Schedule.ipynb
+        - [00_Data Understanding.ipynb](./Cashflow_prediction/Exercise/00_Data_Understanding.ipynb)
+        - [01_Cash_Liquidity_Data_Preparation.ipynb](./Cashflow_prediction/Exercise/01_Cash_Liquidity_Data_Preparation.ipynb)
+        - [02_Cash_Liquidity_Training.ipynb](./Cashflow_prediction/Exercise/02_Cash_Liquidity_Training.ipynb)
+        - [03_Cash_Liqudity_Forecast.ipynb](./Cashflow_prediction/Exercise/03_Cash_Liqudity_Forecast.ipynb)
+        - [04_Publish_Data_Product.ipynb](./Cashflow_prediction/Exercise/04_Publish_Data_Product.ipynb)
     - Solution
-        - 01_Cash_Liquidity_Data_Preparation.ipynb
-        - 02_Cash_Liquidity_Training.ipynb
-        - 03_Cash_Liqudity_Forecast.ipynb
-        - 04_Publish_Data_Product.ipynb
+        - [01_Cash_Liquidity_Data_Preparation.ipynb](./Cashflow_prediction/Solution/01_Cash_Liquidity_Data_Preparation.ipynb)
+        - [02_Cash_Liquidity_Training.ipynb](./Cashflow_prediction/Solution/02_Cash_Liquidity_Training.ipynb)
+        - [03_Cash_Liqudity_Forecast.ipynb](./Cashflow_prediction/Solution/03_Cash_Liqudity_Forecast.ipynb)
+        - [04_Publish_Data_Product.ipynb](./Cashflow_prediction/Solution/04_Publish_Data_Product.ipynb)
         - Time Series Forecast Notebook Schedule.ipynb
 - Payment delay prediction
     - Exercise
