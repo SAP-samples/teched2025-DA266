@@ -8,7 +8,7 @@ This repository contains the material for the [SAP TechEd 2025](https://www.sap.
 #### Use Case: Cashflow Prediction
 This scenario demonstrates how to build a data product for forecasting cash liquidity. The workflow includes:
 
-- 00_Data Understanding.ipynb: Explore and understand the transactional cashflow data.
+- 00_Data_Understanding.ipynb: Explore and understand the transactional cashflow data.
 - 01_Cash_Liquidity_Data_Preparation.ipynb: Prepare and clean the data, including time series transformation.
 - 02_Cash_Liquidity_Training.ipynb: Train time series forecasting models and log results.
 - 03_Cash_Liqudity_Forecast.ipynb: Generate forecasts using the trained models.
@@ -21,10 +21,10 @@ Each notebook in the Exercise folder is designed for hands-on learning, while th
 This advanced scenario focuses on predicting payment delays using machine learning. 
 Furthermore, the prediction results will be interpreted and explained along with their key drivers. The workflow includes:
 
-- 01_Payment Delay Data Preparation.ipynb: Data cleaning and feature engineering for payment delay prediction.
-- 02_Payment Delay Training.ipynb: Model training and evaluation.
-- 03_Payment Delay Inference.ipynb: Applying the trained model to new data for inference.
-- 04_Payment Delay Explain.ipynb: Explaining the inferenced result and its key drivers.
+- 01_Payment_Delay_Data_Preparation.ipynb: Data cleaning and feature engineering for payment delay prediction.
+- 02_Payment_Delay_Training.ipynb: Model training and evaluation.
+- 03_Payment_Delay_Inference.ipynb: Applying the trained model to new data for inference.
+- 04_Payment_Delay_Explain.ipynb: Explaining the inferenced result and its key drivers.
 - 05_Publish_Data_Product.ipynb: Publishing the prediction results as a data product to BDC.
 
 As with the cashflow scenario, both Exercise and Solution folders are provided.
