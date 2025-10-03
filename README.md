@@ -89,17 +89,17 @@ Before running the exercises, following items must be provided beforehand
         - Time Series Forecast Notebook Schedule.ipynb
 - Payment delay prediction
     - Exercise
-        - [01_Payment_Delay_Data_Preparation.ipynb](./Payment_deltay_prediction/Exercise/01_Payment_Delay_Data_Preparation.ipynb)
-        - [02_Payment_Delay_Training.ipynb](./Payment_deltay_prediction/Exercise/02_Payment_Delay_Training.ipynb)
-        - [03_Payment_Delay_Inference.ipynb](./Payment_deltay_prediction/Exercise/03_Payment_Delay_Inference.ipynb)
-        - [04_Payment_Delay_Explain.ipynb](./Payment_deltay_prediction/Exercise/04_Payment_Delay_Explain.ipynb)
-        - [05_Publish_Data_Product.ipynb](./Payment_deltay_prediction/Exercise/05_Publish_Data_Product.ipynb)
+        - [01_Payment_Delay_Data_Preparation.ipynb](./Payment_delay_prediction/Exercise/01_Payment_Delay_Data_Preparation.ipynb)
+        - [02_Payment_Delay_Training.ipynb](./Payment_delay_prediction/Exercise/02_Payment_Delay_Training.ipynb)
+        - [03_Payment_Delay_Inference.ipynb](./Payment_delay_prediction/Exercise/03_Payment_Delay_Inference.ipynb)
+        - [04_Payment_Delay_Explain.ipynb](./Payment_delay_prediction/Exercise/04_Payment_Delay_Explain.ipynb)
+        - [05_Publish_Data_Product.ipynb](./Payment_delay_prediction/Exercise/05_Publish_Data_Product.ipynb)
     - Solution
-        - [01_Payment_Delay_Data_Preparation.ipynb](./Payment_deltay_prediction/Solution/01_Payment_Delay_Data_Preparation.ipynb)
-        - [02_Payment_Delay_Training.ipynb](./Payment_deltay_prediction/Solution/02_Payment_Delay_Training.ipynb)
-        - [03_Payment_Delay_Inference.ipynb](./Payment_deltay_prediction/Solution/03_Payment_Delay_Inference.ipynb)
-        - [04_Payment_Delay_Explain.ipynb](./Payment_deltay_prediction/Solution/04_Payment_Delay_Explain.ipynb)
-        - [05_Publish_Data_Product.ipynb](./Payment_deltay_prediction/Solution/05_Publish_Data_Product.ipynb)
+        - [01_Payment_Delay_Data_Preparation.ipynb](./Payment_delay_prediction/Solution/01_Payment_Delay_Data_Preparation.ipynb)
+        - [02_Payment_Delay_Training.ipynb](./Payment_delay_prediction/Solution/02_Payment_Delay_Training.ipynb)
+        - [03_Payment_Delay_Inference.ipynb](./Payment_delay_prediction/Solution/03_Payment_Delay_Inference.ipynb)
+        - [04_Payment_Delay_Explain.ipynb](./Payment_delay_prediction/Solution/04_Payment_Delay_Explain.ipynb)
+        - [05_Publish_Data_Product.ipynb](./Payment_delay_prediction/Solution/05_Publish_Data_Product.ipynb)
 
 
 
