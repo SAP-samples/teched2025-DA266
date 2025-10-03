@@ -2,42 +2,65 @@
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2025 session called DA266 - Operationalizing AI with SAP Databricks in SAP Business Data Cloud. It covers end-to-end workflows and scripts for two main data product scenarios: **Cashflow Prediction** and **Payment Delay Prediction**. The repository is organized to support both learning (Exercise) and reference (Solution) use cases, with each scenario broken down into modular notebooks that guide you through the data science lifecycle. 
+This repository contains the material for the [SAP TechEd 2025](https://www.sap.com/events/teched.html) session called DA266 - Operationalizing AI with SAP Databricks in SAP Business Data Cloud. It covers end-to-end workflows and scripts for two main data product scenarios `Cashflow Prediction` and `Payment Delay Prediction`. The repository is organized to support both learning (Exercise) and reference (Solution) use cases, with each scenario broken down into modular notebooks that guide you through the data science lifecycle. 
 
 ## Overview
+#### Cashflow Prediction
+This scenario demonstrates how to build a data product for forecasting cash liquidity. The workflow includes:
 
-This session introduces attendees to...
+- 00_Data Understanding.ipynb: Explore and understand the transactional cashflow data.
+- 01_Cash_Liquidity_Data_Preparation.ipynb: Prepare and clean the data, including time series transformation.
+- 02_Cash_Liquidity_Training.ipynb: Train time series forecasting models and log results.
+- 03_Cash_Liqudity_Forecast.ipynb: Generate forecasts using the trained models.
+- 04_Publish_Data_Product.ipynb: Publish the resulting data product to SAP Business Data Cloud (BDC) using Delta Sharing.
+
+Time Series Forecast Notebook Schedule.ipynb: Provides a schedule and overview for running the notebooks in sequence.
+Each notebook in the Exercise folder is designed for hands-on learning, while the Solution folder provides reference implementations.
+
+#### Payment Delay Prediction
+This advanced scenario focuses on predicting payment delays using machine learning. 
+Furthermore, the prediction results will be interpreted and explained along with their key drivers. The workflow includes:
+
+- 01_Payment Delay Data Preparation.ipynb: Data cleaning and feature engineering for payment delay prediction.
+- 02_Payment Delay Training.ipynb: Model training and evaluation.
+- 03_Payment Delay Inference.ipynb: Applying the trained model to new data for inference.
+- 04_Payment Delay Explain.ipynb: Explaining the inferenced result and its key drivers.
+- 05_Publish_Data_Product.ipynb: Publishing the prediction results as a data product to BDC.
+
+As with the cashflow scenario, both Exercise and Solution folders are provided.
+
 
 ## Requirements
 Before running the exercises, following items must be provided beforehand
-- **Access to SAP Business Data Cloud Cockpit**
-- **Access to SAP Databricks**: 
+- Access to SAP Business Data Cloud Cockpit
+- Access to SAP Databricks: 
     - https://accounts.cloud.databricks.com/select-workspace?account_id=779c1dfb-54a0-4c0b-ab10-657b3ea0e70b
-- **Users and Password for SAP Databricks**
+- Users and Password for SAP Databricks
     - should be provided by your workshop host
     - e.g. `AC229588U01@sapexperienceacademy.com`
-- **Access to the Unitity Catalog**:
+- Access to the Unitity Catalog:
     - `uc_cash_liquidity_forecast`
     - `uc_delayed_payment`
-- **Appropriate permissions to create schema within the above mentioned catalogs**
+- Appropriate permissions to create schema within the above mentioned catalogs
     - each user will have to create his own schema to run exercises
     - the schema name follows the pattern `<catalog_name>.grp.`+`<last_2_digits_of_user>`
     - e.g. user AC229588U**01** will create correspondingly the schemas
         - uc_cash_liquidity_forecast.grp**01** 
         - uc_delayed_payment.grp**01**
-- **Access to delta shared SAP Data Products**
+- Access to delta shared SAP Data Products
     - `Cashflow` 
     - `Entry View Journal Entry`
-- **Access to a configured SAP AI Core Service intance with corresponding service key**
+- Access to a configured SAP AI Core Service intance with corresponding service key
     - https://help.sap.com/docs/sap-ai-core/sap-ai-core-service-guide/initial-setup
-- **Access to required Python packages**
+- Access to required Python packages
     - `sap-bdc-connect-sdk` 
     - `sap-ai-sdk-gen` 
-- **Configured SECRET SCOPE** 
+- Configured SECRET SCOPE
     - This step has already been done by the administrator to facilitate the sharing process. However, if you need to do it on you own you can follow the steps described here to create a secret scope: To create a secret scope you can either use the following URL `https://<databricks-instance>#secrets/createScope`. Replace `<databricks-instance>` with the workspace URL of your Databricks deployment.
     - Alternatively, you can run the following command in the terminal by clicking on the terminal icon on the lower right corner: `databricks secrets create-scope sap-bdc-connect-sdk`. 
     - The secret scope only has to be created once and can be made accessible to all workspace users by either toggling `manage principal` to `all workspace users` or via the terminal using the following command `databricks secrets put-acl sap-bdc-connect-sdk users READ`. To check whether the assignment worked, you can then use the command `databricks secrets list-acls sap-bdc-connect-sdk`.
     - A full explanation can be found here https://docs.databricks.com/aws/en/security/secrets/example-secret-workflow     
+
 
 ## Exercises
 >[!TIP]
