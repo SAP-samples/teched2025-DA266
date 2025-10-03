@@ -15,7 +15,7 @@ Before running the exercises, following items must be provided beforehand
     - https://accounts.cloud.databricks.com/select-workspace?account_id=779c1dfb-54a0-4c0b-ab10-657b3ea0e70b
 - **Users and Password for SAP Databricks**
     - e.g. `AC229588U01@sapexperienceacademy.com`
-- **Access to the Unitity Catalogs**:
+- **Access to the Unitity Catalog**:
     - `uc_cash_liquidity_forecast`
     - `uc_delayed_payment`
 - **Appropriate permissions to create schema within the above mentioned catalogs**
@@ -24,8 +24,14 @@ Before running the exercises, following items must be provided beforehand
     - e.g. user AC229588U**01** will create correspondingly the schemas
         - uc_cash_liquidity_forecast.grp**01** 
         - uc_delayed_payment.grp**01**
+- **Access to delta shared SAP Data Products**
+    - `Cashflow` 
+    - `Entry View Journal Entry`
+- **Access to a configured SAP AI Core Service intance with corresponding service key**
+    - https://help.sap.com/docs/sap-ai-core/sap-ai-core-service-guide/initial-setup
 - **Access to required Python packages**
     - `sap-bdc-connect-sdk` 
+    - `sap-ai-sdk-gen` 
 - **Configured SECRET SCOPE** 
     - This step has already been done by the administrator to facilitate the sharing process. However, if you need to do it on you own you can follow the steps described here to create a secret scope: To create a secret scope you can either use the following URL `https://<databricks-instance>#secrets/createScope`. Replace `<databricks-instance>` with the workspace URL of your Databricks deployment.
     - Alternatively, you can run the following command in the terminal by clicking on the terminal icon on the lower right corner: `databricks secrets create-scope sap-bdc-connect-sdk`. 
