@@ -12,7 +12,7 @@ This scenario demonstrates how to build a data product for forecasting cash liqu
 - 01_Cash_Liquidity_Data_Preparation.ipynb: Prepare and clean the data, including time series transformation.
 - 02_Cash_Liquidity_Training.ipynb: Train time series forecasting models and log results.
 - 03_Cash_Liqudity_Forecast.ipynb: Generate forecasts using the trained models.
-- 04_Publish_Data_Product.ipynb: Publish the resulting data product to SAP Business Data Cloud (BDC) using Delta Sharing.
+- 04_Publish_Data_Product.ipynb: Publish the resulting data product to SAP Business Data Cloud (BDC) Catalog using Delta Sharing.
 
 Time Series Forecast Notebook Schedule.ipynb: Provides a schedule and overview for running the notebooks in sequence.
 Each notebook in the Exercise folder is designed for hands-on learning, while the Solution folder provides reference implementations.
