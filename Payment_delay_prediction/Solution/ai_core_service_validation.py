@@ -32,7 +32,11 @@ orchestration_config = OrchestrationConfig(
 orchestration_service = OrchestrationService(config = orchestration_config)
 
 result = orchestration_service.run(template_values=[
-    TemplateValue(name="prompt", value="Who are you?")
+    TemplateValue(name="prompt", value=
+                  '''
+                  Who are you?
+                  '''
+                  )
 ])
 print(result.orchestration_result.choices[0].message.content)
 
