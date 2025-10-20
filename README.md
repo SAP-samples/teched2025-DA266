@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository contains the material for the [SAP TechEd 2025](https://www.sap.com/events/teched.html) session called DA266-Operationalizing AI with SAP Databricks in SAP Business Data Cloud. It covers end-to-end workflows and scripts for two main user case scenarios `Cashflow Prediction` and `Payment Delay Prediction`. The repository https://dbc-86b8478a-2ba8.cloud.databricks.com/editor/notebooks/4192005726442714?o=4117533292313025$0is organized to support both learning (Exercise) and reference (Solution) use cases, with each scenario broken down into modular notebooks that guide you through the data science lifecycle. 
+This repository contains the material for the [SAP TechEd 2025](https://www.sap.com/events/teched.html) session called DA266-Operationalizing AI with SAP Databricks in SAP Business Data Cloud. It covers end-to-end workflows and scripts for two main user case scenarios `Cashflow Prediction` and `Payment Delay Prediction`. The repository is organized to support both learning (Exercise) and reference (Solution) use cases, with each scenario broken down into modular notebooks that guide you through the data science lifecycle. 
 
 ## Overview
 #### A. Use Case: Cashflow Prediction
