@@ -77,7 +77,7 @@ Before running the exercises, following items must be provided beforehand
 - Access to the Unitity Catalog:
     - `uc_cash_liquidity_forecast`
     - `uc_delayed_payments`
-- Access to delta shared SAP Data Products
+- Access to pre-prepared Delta Shares and the following Data Products
     - `Cashflow` 
     - `Entry View Journal Entry`
     - ![python_environment](./images/unity_catalog_delta_share.png)
