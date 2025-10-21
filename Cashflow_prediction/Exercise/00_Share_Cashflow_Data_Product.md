@@ -1,4 +1,4 @@
-## Sharing `Cashflow` Data Product to SAP Databricks
+## Sharing Data Product `Cashflow` to SAP Databricks
 This chapter describes the steps how Data Products in SAP Business Data Cloud (SAP BDC) are shared with SAP Databricks. We will use the [**Delta Sharing**](https://www.databricks.com/product/delta-sharing), which is an open protocol developed by Databricks and the Linux Foundation that enables secure, real-time data sharing across different platforms, clouds, and regions. It’s designed to break down data silos and make collaboration easier — WITHOUT requiring to copy data from one system to another.
 
 > [IMPORTANT]
@@ -16,33 +16,46 @@ This chapter describes the steps how Data Products in SAP Business Data Cloud (S
 
     ![../images/img_10.jpg](../../images/login_bdc_cockpit.png)
 
+    <hr>
 
 2. Search for the data product **Cashflow** and click on the tile to open.
 
     ![../images/search_cashflow_dp.png](../../images/search_cashflow_dp.png) 
 
+    <hr>
 
 3. On the detail page click on the *`Share`*-button to open the dialog
 
     ![../images/share_cashflow_dp.png](../../images/share_cashflow_dp.png)
 
+    <hr>
+
 4. Enter a `Share Name` and target SAP Databricks `Workspace` and click on `<Share>`-button.
 
     ![../images/target_cashflow_workspace.png](../../images/target_dbx_cashflow_workspace.png)
+
+    <hr>
 
 5. Login SAP Databricks and navigate to the Unity Catalog.
 
     ![../images/unity_catalog.png](../../images/unity_catalog.png)
 
+    <hr>
 
 6. Navigate to the `Delta Shares Received`, find the table `cashflow` and click on the tab `Sample Data`.
 
     ![../images/cashflow_sample_data.png](../../images/cashflow_sample_data.png)
 
+    <hr>
+
 7. Click on `Select Compute`and select `Serverless Starter Warehouse`, then click on `Start and Close`.
 
     ![../images/cashflow_sample_data.png](../../images/cashflow_serverless_compute.png)
 
+    <hr>
+
 8. Preview the `cashflow`sample data
 
     ![../images/cashflow_sample_data_preview.png](../../images/cashflow_sample_data_preview.png)
+
+    <hr>
