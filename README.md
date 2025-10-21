@@ -3,34 +3,66 @@
 ## Description
 
 This repository contains the material for the [SAP TechEd 2025](https://www.sap.com/events/teched.html) session called DA266-Operationalizing AI with SAP Databricks in SAP Business Data Cloud. It covers end-to-end workflows and scripts for two main user case scenarios `Cashflow Prediction` and `Payment Delay Prediction`. The repository is organized to support both learning (Exercise) and reference (Solution) use cases, with each scenario broken down into modular notebooks that guide you through the data science lifecycle. 
+>[!TIP]
+>1. **Start with the Exercise notebooks** to follow the guided workflow and implement each step yourself.
+>2. **Refer to the Solution notebooks** for completed code and best practices.
+>3. **Follow the notebook order** (as indicated by the numbering) for a logical progression from data understanding to publishing a data product.
+>4. **Publishing to BDC**: The final notebook in each scenario demonstrates how to expose your results as a data product using Delta Sharing and the SAP BDC Connect SDK.
 
-## Overview
-#### A. Use Case: Cashflow Prediction
-- **Scenario**:
-    The data scientist wants to forecast the cashflow for the upcoming 6 months and make the result available for reporting. For that he needs to access the cashflow data product from S/4HANA, apply ML/AI model training and forecasting, and share / install the enriched data product in BDC Cockpit and Datasphere. 
+## Exercises
+- ### Use Case 1: Cashflow Prediction
+    - **Scenario**:
+        The data scientist wants to forecast the cashflow for the upcoming 6 months and make the result available for reporting. For that he needs to access the cashflow data product from S/4HANA, apply ML/AI model training and forecasting, and share / install the enriched data product in BDC Cockpit and Datasphere. 
 
-- **Key Learnings**:
-    - Sharing Data Product to SAP Databricks
-    - Enrich Data Product with ML/AI Insights, e.g. 
-        -  Data understanding and preparation
-        -  Train time series forecast model 
-        -  Apply cashflow forecast
-    - MLFlow for monitoring query performance 
-    - Re-sharing custom Data Product to BDC Data Catalog with `sap-bdc-connect-sdk`
+    - **Key Learnings**:
+        - Sharing Data Product to SAP Databricks
+        - Enrich Data Product with ML/AI Insights, e.g. 
+            -  Data understanding and preparation
+            -  Train time series forecast model 
+            -  Apply cashflow forecast
+        - MLFlow for monitoring query performance 
+        - Re-sharing custom Data Product to BDC Data Catalog with `sap-bdc-connect-sdk`
+    - **Exercises**:
+        - [00_Share_Cashflow_Data_Product.md](./Cashflow_prediction/Exercise/00_Share_Cashflow_Data_Product.md)
+        - [01_Data Understanding.ipynb](./Cashflow_prediction/Exercise/01_Data_Understanding.ipynb)
+        - [02_Cash_Liquidity_Data_Preparation.ipynb](./Cashflow_prediction/Exercise/02_Cash_Liquidity_Data_Preparation.ipynb)
+        - [03_Cash_Liquidity_Training.ipynb](./Cashflow_prediction/Exercise/03_Cash_Liquidity_Training.ipynb)
+        - [04_Cash_Liqudity_Forecast.ipynb](./Cashflow_prediction/Exercise/04_Cash_Liqudity_Forecast.ipynb)
+        - [05_Publish_Data_Product.ipynb](./Cashflow_prediction/Exercise/05_Publish_Data_Product.ipynb)
+    - **Solution**
+        - [00_Share_Cashflow_Data_Product.md](./Cashflow_prediction/Solution/00_Share_Cashflow_Data_Product.md)
+        - [01_Data Understanding.ipynb](./Cashflow_prediction/Solution/01_Data_Understanding.ipynb)
+        - [02_Cash_Liquidity_Data_Preparation.ipynb](./Cashflow_prediction/Solution/02_Cash_Liquidity_Data_Preparation.ipynb)
+        - [03_Cash_Liquidity_Training.ipynb](./Cashflow_prediction/Solution/03_Cash_Liquidity_Training.ipynb)
+        - [04_Cash_Liqudity_Forecast.ipynb](./Cashflow_prediction/Solution/04_Cash_Liqudity_Forecast.ipynb)
+        - [05_Publish_Data_Product.ipynb](./Cashflow_prediction/Solution/05_Publish_Data_Product.ipynb)
 
-#### B. Use Case: Payment Delay Prediction
-- **Scenario**:
-    The data scientist needs to predict payment delays and run a root cause analysis. He has to provide the key drivers for the delays and an explanation in a human readable manner. For that he combines SAP Databricks and AI Foundation LLM capabilities to derive the insights. These insights will help the Financial Controller to better understand the payment delays problem and to derive the corresponding actions to mitigate.
+- ### Use Case 2: Payment Delay Prediction
+    - **Scenario**:
+        The data scientist needs to predict payment delays and run a root cause analysis. He has to provide the key drivers for the delays and an explanation in a human readable manner. For that he combines SAP Databricks and AI Foundation LLM capabilities to derive the insights. These insights will help the Financial Controller to better understand the payment delays problem and to derive the corresponding actions to mitigate.
 
-- **Key Learnings**:
-    - Advanced ML/AI capabilities
-        - Determine key drivers for payment delay via SHAP Values
-        - Visualizing SHAP Values
-        - Hyperparameter optimization with xgboost
-    - Integrating SAP AI Core Service for LLM modelling
-        - Configure SAP AI Core `orchestration services`
-    - Implementing MLFlow custom model with PyFunc for monitoring and logging
-
+    - **Key Learnings**:
+        - Advanced ML/AI capabilities
+            - Determine key drivers for payment delay via SHAP Values
+            - Visualizing SHAP Values
+            - Hyperparameter optimization with xgboost
+        - Integrating SAP AI Core Service for LLM modelling
+            - Configure SAP AI Core `orchestration services`
+        - Implementing MLFlow custom model with PyFunc for monitoring and logging
+    - **Exercises**:
+        - [00_Share_Entry_Journal_Entry_View_Data_Product.md](./Payment_delay_prediction/Exercise/00_Share_Entry_Journal_Entry_View_Data_Product.md)
+        - [01_Payment_Delay_Data_Preparation.ipynb](./Payment_delay_prediction/Exercise/01_Payment_Delay_Data_Preparation.ipynb)
+        - [02_Payment_Delay_Training.ipynb](./Payment_delay_prediction/Exercise/02_Payment_Delay_Training.ipynb)
+        - [03_Payment_Delay_Inference.ipynb](./Payment_delay_prediction/Exercise/03_Payment_Delay_Inference.ipynb)
+        - [04_Payment_Delay_Explain.ipynb](./Payment_delay_prediction/Exercise/04_Payment_Delay_Explain.ipynb)
+        - [05_Publish_Data_Product.ipynb](./Payment_delay_prediction/Exercise/05_Publish_Data_Product.ipynb)
+    - **Solution**
+        - [00_Share_Entry_Journal_Entry_View_Data_Product.md](./Payment_delay_prediction/Solution/00_Share_Entry_Journal_Entry_View_Data_Product.md)
+        - [01_Payment_Delay_Data_Preparation.ipynb](./Payment_delay_prediction/Solution/01_Payment_Delay_Data_Preparation.ipynb)
+        - [02_Payment_Delay_Training.ipynb](./Payment_delay_prediction/Solution/02_Payment_Delay_Training.ipynb)
+        - [03_Payment_Delay_Inference.ipynb](./Payment_delay_prediction/Solution/03_Payment_Delay_Inference.ipynb)
+        - [04_Payment_Delay_Explain.ipynb](./Payment_delay_prediction/Solution/04_Payment_Delay_Explain.ipynb)
+        - [05_Publish_Data_Product.ipynb](./Payment_delay_prediction/Solution/05_Publish_Data_Product.ipynb)
 
 ## Requirements
 Before running the exercises, following items must be provided beforehand
@@ -69,53 +101,6 @@ Before running the exercises, following items must be provided beforehand
 
 - For the python environment the exercises have been run with the python 3.12
     - ![python_environment](./images/python_environment.png)
-
-## Exercises
->[!TIP]
->1. **Start with the Exercise notebooks** to follow the guided workflow and implement each step yourself.
->2. **Refer to the Solution notebooks** for completed code and best practices.
->3. **Follow the notebook order** (as indicated by the numbering) for a logical progression from data understanding to publishing a data product.
->4. **Publishing to BDC**: The final notebook in each scenario demonstrates how to expose your results as a data product using Delta Sharing and the SAP BDC Connect SDK.
-
-
-- Sharing Data Products to SAP Databricks
-    - Exercise
-        - 01 Share_Data_Product_to_SAP_Databricks
-- Cashflow prediction
-    - Exercise
-        - [00_Share_Cashflow_Data_Product.md](./Cashflow_prediction/Exercise/00_Share_Cashflow_Data_Product.md)
-        - [01_Data Understanding.ipynb](./Cashflow_prediction/Exercise/01_Data_Understanding.ipynb)
-        - [02_Cash_Liquidity_Data_Preparation.ipynb](./Cashflow_prediction/Exercise/02_Cash_Liquidity_Data_Preparation.ipynb)
-        - [03_Cash_Liquidity_Training.ipynb](./Cashflow_prediction/Exercise/03_Cash_Liquidity_Training.ipynb)
-        - [04_Cash_Liqudity_Forecast.ipynb](./Cashflow_prediction/Exercise/04_Cash_Liqudity_Forecast.ipynb)
-        - [05_Publish_Data_Product.ipynb](./Cashflow_prediction/Exercise/05_Publish_Data_Product.ipynb)
-    - Solution
-        - [00_Share_Cashflow_Data_Product.md](./Cashflow_prediction/Solution/00_Share_Cashflow_Data_Product.md)
-        - [01_Data Understanding.ipynb](./Cashflow_prediction/Solution/01_Data_Understanding.ipynb)
-        - [02_Cash_Liquidity_Data_Preparation.ipynb](./Cashflow_prediction/Solution/02_Cash_Liquidity_Data_Preparation.ipynb)
-        - [03_Cash_Liquidity_Training.ipynb](./Cashflow_prediction/Solution/03_Cash_Liquidity_Training.ipynb)
-        - [04_Cash_Liqudity_Forecast.ipynb](./Cashflow_prediction/Solution/04_Cash_Liqudity_Forecast.ipynb)
-        - [05_Publish_Data_Product.ipynb](./Cashflow_prediction/Solution/05_Publish_Data_Product.ipynb)
-- Payment delay prediction
-    - Exercise
-        - [00_Share_Entry_Journal_Entry_View_Data_Product.md](./Payment_delay_prediction/Exercise/00_Share_Entry_Journal_Entry_View_Data_Product.md)
-        - [01_Payment_Delay_Data_Preparation.ipynb](./Payment_delay_prediction/Exercise/01_Payment_Delay_Data_Preparation.ipynb)
-        - [02_Payment_Delay_Training.ipynb](./Payment_delay_prediction/Exercise/02_Payment_Delay_Training.ipynb)
-        - [03_Payment_Delay_Inference.ipynb](./Payment_delay_prediction/Exercise/03_Payment_Delay_Inference.ipynb)
-        - [04_Payment_Delay_Explain.ipynb](./Payment_delay_prediction/Exercise/04_Payment_Delay_Explain.ipynb)
-        - [05_Publish_Data_Product.ipynb](./Payment_delay_prediction/Exercise/05_Publish_Data_Product.ipynb)
-    - Solution
-        - [00_Share_Entry_Journal_Entry_View_Data_Product.md](./Payment_delay_prediction/Solution/00_Share_Entry_Journal_Entry_View_Data_Product.md)
-        - [01_Payment_Delay_Data_Preparation.ipynb](./Payment_delay_prediction/Solution/01_Payment_Delay_Data_Preparation.ipynb)
-        - [02_Payment_Delay_Training.ipynb](./Payment_delay_prediction/Solution/02_Payment_Delay_Training.ipynb)
-        - [03_Payment_Delay_Inference.ipynb](./Payment_delay_prediction/Solution/03_Payment_Delay_Inference.ipynb)
-        - [04_Payment_Delay_Explain.ipynb](./Payment_delay_prediction/Solution/04_Payment_Delay_Explain.ipynb)
-        - [05_Publish_Data_Product.ipynb](./Payment_delay_prediction/Solution/05_Publish_Data_Product.ipynb)
-
-
-
-
-
 
 
 ## Contributing
