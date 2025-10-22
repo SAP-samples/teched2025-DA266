@@ -101,6 +101,9 @@ Before running the exercises, following items must be provided beforehand
     - The secret scope only has to be created once and can be made accessible to all workspace users by either toggling `manage principal` to `all workspace users` or via the terminal using the following command `databricks secrets put-acl sap-bdc-connect-sdk users READ`. To check whether the assignment worked, you can then use the command `databricks secrets list-acls sap-bdc-connect-sdk`.
     - A full explanation can be found here https://docs.databricks.com/aws/en/security/secrets/example-secret-workflow     
 
+- To import the notebook, navigate to your own folder (same as the user email assigned to you) under the `Workspace> Users` tab. In the whitespace, right-click or use the context menu and select `Import`. Then import the file in question from your system's File Explorer.
+    - ![import_notebook](./images/import_Notebook.png)
+ 
 - For the python environment the exercises have been run with the python 3.12. Note: This has to be set manually for each notbook individually !
     - ![python_environment](./images/python_environment.png)
 
