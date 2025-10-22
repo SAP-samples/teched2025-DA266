@@ -9,6 +9,7 @@ This repository contains the material for the [SAP TechEd 2025](https://www.sap.
 >3. **Refer to the Solution notebooks** for completed code and best practices.
 >4. **Follow the notebook order** (as indicated by the numbering) for a logical progression from data understanding to publishing a data product.
 >5. **Publishing to BDC**: The final notebook in each scenario demonstrates how to expose your results as a data product using Delta Sharing and the SAP BDC Connect SDK.
+>6. **Requirements**: Please read the `Requirements` section below carefully since it contains key information for all exercises.
 
 ## Exercises
 - ### Use Case 1: Cashflow Prediction
