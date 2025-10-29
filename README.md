@@ -12,6 +12,15 @@ This repository contains the material for the [SAP TechEd 2025](https://www.sap.
 >6. **Publishing to SAP Business Data Cloud (BDC)**: The final notebook in each scenario demonstrates how to expose your results as a data product using Delta Sharing and the SAP BDC Connect SDK.
 
 
+## Loging SAP Databricks instance
+1. Access to SAP Business Data Cloud Cockpit:
+    - https://trial-bdc-core.eu10.hcs.cloud.sap/bdc-ui/index.html#/
+2. Access to SAP Databricks: 
+    - https://accounts.cloud.databricks.com/select-workspace?account_id=779c1dfb-54a0-4c0b-ab10-657b3ea0e70b
+3. Users and Password for SAP Databricks
+    - should be provided by your workshop host
+    - e.g. `ac229588u01@sapexperienceacademy.com`
+
 ## Exercises
 - ### Use Case 1: Cashflow Prediction
     - **Scenario**:
@@ -69,13 +78,6 @@ This repository contains the material for the [SAP TechEd 2025](https://www.sap.
 
 ## Requirements
 Before running the exercises, following items must be provided beforehand
-- Access to SAP Business Data Cloud Cockpit:
-    - https://trial-bdc-core.eu10.hcs.cloud.sap/bdc-ui/index.html#/
-- Access to SAP Databricks: 
-    - https://accounts.cloud.databricks.com/select-workspace?account_id=779c1dfb-54a0-4c0b-ab10-657b3ea0e70b
-- Users and Password for SAP Databricks
-    - should be provided by your workshop host
-    - e.g. `ac229588u01@sapexperienceacademy.com`
 - Access to the Unitity Catalog:
     - `uc_cash_liquidity_forecast`
     - `uc_delayed_payments`
