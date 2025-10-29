@@ -15,7 +15,7 @@ This repository contains the material for the [SAP TechEd 2025](https://www.sap.
 ## Loging SAP Databricks instance
 1. Access to SAP Business Data Cloud Cockpit:
     - https://trial-bdc-core.eu10.hcs.cloud.sap/bdc-ui/index.html#/
-    - [](./images/bdc_cockpit_first_login.png)
+    - ![](./images/bdc_cockpit_first_login.png)
 2. Access to SAP Databricks: 
     - https://accounts.cloud.databricks.com/select-workspace?account_id=779c1dfb-54a0-4c0b-ab10-657b3ea0e70b
 3. Users and Password for SAP Databricks
