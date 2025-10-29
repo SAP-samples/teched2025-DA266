@@ -16,11 +16,13 @@ This repository contains the material for the [SAP TechEd 2025](https://www.sap.
 1. Users and Password for SAP Databricks
     - should be provided by your workshop host
     - e.g. `ac229588u01@sapexperienceacademy.com`
-2. Access to SAP Business Data Cloud Cockpit:
-    - https://trial-bdc-core.eu10.hcs.cloud.sap/bdc-ui/index.html#/
+2. Access to SAP Business Data Cloud Cockpit: https://trial-bdc-core.eu10.hcs.cloud.sap/bdc-ui/index.html#/
     - ![](./images/bdc_cockpit_first_login.png)
-3. In the `System Landscape` page click on the SAP Databricks link to access the instance: 
-    - https://accounts.cloud.databricks.com/select-workspace?account_id=779c1dfb-54a0-4c0b-ab10-657b3ea0e70b
+3. In the `System Landscape` page click on the SAP Databricks link to access the instance:
+    - ![](./images/login_sap_databricks.png)
+    - the link should be: https://accounts.cloud.databricks.com/select-workspace?account_id=779c1dfb-54a0-4c0b-ab10-657b3ea0e70b
+4. Login with the provided user creditials
+   - ![](./images/login_sap_databricks2.png)
 
 
 ## Exercises
