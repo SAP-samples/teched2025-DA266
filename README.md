@@ -53,13 +53,7 @@ Following pre-requisites should have been already prepared by the system adminis
 - The following SAP Data Products are shared and accessible by all users:
     - `Cashflow` 
     - `Entry View Journal Entry` 
-- Appropriate permissions to create schema within the above mentioned catalogs
-    - users will have to create their own schema to run exercises
-    - the schema name follows the pattern `<catalog_name>.grp.`+`<last_2_digits_of_user>`
-    - e.g. user ac229588u**01** will create correspondingly the schemas
-        - uc_cash_liquidity_forecast.grp**01** 
-        - uc_delayed_payments.grp**01**
-        - ![unity_catalog_schema](./images/unity_catalog_schema.png)
+- Appropriate permissions for all users to create schema within the above mentioned catalogs
 - Access to a configured SAP AI Core Service intance with corresponding service key
     - https://help.sap.com/docs/sap-ai-core/sap-ai-core-service-guide/initial-setup
 - Access to required Python packages
