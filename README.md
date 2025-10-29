@@ -37,6 +37,13 @@ This repository contains the material for the [SAP TechEd 2025](https://www.sap.
 8. For the Python environment the exercises have been run with the python 3.12. Note: This has to be set manually for each notebook individually!
     - ![python_environment](./images/python_environment.png)
 
+9. Please note, that in the exercises you will be asked to create in the catalog a `<SCHEMA>`, to have a clear separation of the exercise artefacts. The `<SCHEMA>` will follow the pattern `<catalog_name>.grp`+`<last_2_digits_of_user>`.
+    - e.g. user ac229588u**01** will create correspondingly the schemas
+        - `uc_cash_liquidity_forecast.grp01`
+        - `uc_delayed_payments.grp01` 
+      
+      ![unity_catalog_schema](./images/unity_catalog_schema.png)
+
 ## Requirements
 Following pre-requisites should have been already prepared by the system administrator:
 - Unity Catalog with 2 predefined catalogs with read and write access for all users:
