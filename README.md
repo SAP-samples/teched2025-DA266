@@ -83,7 +83,7 @@ Before running the exercises, following items must be provided beforehand
     - `Entry View Journal Entry`
     - ![python_environment](./images/unity_catalog_delta_share.png)
 - Appropriate permissions to create schema within the above mentioned catalogs
-    - each user will have to create his own schema to run exercises
+    - users will have to create their own schema to run exercises
     - the schema name follows the pattern `<catalog_name>.grp.`+`<last_2_digits_of_user>`
     - e.g. user ac229588u**01** will create correspondingly the schemas
         - uc_cash_liquidity_forecast.grp**01** 
