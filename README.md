@@ -12,7 +12,7 @@ This repository contains the material for the [SAP TechEd 2025](https://www.sap.
 >6. **Publishing to SAP Business Data Cloud (BDC)**: The final notebook in each scenario demonstrates how to expose your results as a data product using Delta Sharing and the SAP BDC Connect SDK.
 
 
-## Loging SAP Databricks instance
+## Loging SAP Databricks instance and first setups
 1. Users and Password for SAP Databricks
     - should be provided by your workshop host
     - e.g. `ac229588u01@sapexperienceacademy.com`
@@ -25,13 +25,26 @@ This repository contains the material for the [SAP TechEd 2025](https://www.sap.
 5. Before running the exercises, navigate to the *Unity Catalog* and check in the `My organization` for the following catalogs:
     - `uc_cash_liquidity_forecast`
     - `uc_delayed_payments`
-   
    Furthermore, you will find in the `Received Deltas Shares` the shared data products from SAP Business Data Cloud:
     - `Cashflow` 
     - `Entry View Journal Entry`
     - ![python_environment](./images/unity_catalog_delta_share.png)
 
+6. Download this github repository into your local PC.
+7. To import the notebook, navigate to your own folder (same as the user email assigned to you) under the `Workspace> Users` tab. In the whitespace, right-click or use the context menu and select `Import`. Then import the file in question from your system's File Explorer.
+    - ![import_notebook](./images/import_Notebook.png)
+ 
+8. For the Python environment the exercises have been run with the python 3.12. Note: This has to be set manually for each notebook individually!
+    - ![python_environment](./images/python_environment.png)
+
 ## Requirements
+Following pre-requisites should have been already prepared by the system administrator:
+- Unity Catalog with 2 predefined catalogs with read and write access for all users:
+    - `uc_cash_liquidity_forecast`
+    - `uc_delayed_payments`
+- The following SAP Data Products are shared and accessible by all users:
+    - `Cashflow` 
+    - `Entry View Journal Entry` 
 - Appropriate permissions to create schema within the above mentioned catalogs
     - users will have to create their own schema to run exercises
     - the schema name follows the pattern `<catalog_name>.grp.`+`<last_2_digits_of_user>`
@@ -50,11 +63,7 @@ This repository contains the material for the [SAP TechEd 2025](https://www.sap.
     - The secret scope only has to be created once and can be made accessible to all workspace users by either toggling `manage principal` to `all workspace users` or via the terminal using the following command `databricks secrets put-acl sap-bdc-connect-sdk users READ`. To check whether the assignment worked, you can then use the command `databricks secrets list-acls sap-bdc-connect-sdk`.
     - A full explanation can be found here https://docs.databricks.com/aws/en/security/secrets/example-secret-workflow     
 
-- To import the notebook, navigate to your own folder (same as the user email assigned to you) under the `Workspace> Users` tab. In the whitespace, right-click or use the context menu and select `Import`. Then import the file in question from your system's File Explorer.
-    - ![import_notebook](./images/import_Notebook.png)
- 
-- For the Python environment the exercises have been run with the python 3.12. Note: This has to be set manually for each notebook individually!
-    - ![python_environment](./images/python_environment.png)
+
 
 
 ## Exercises
