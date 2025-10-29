@@ -1,8 +1,9 @@
 ## Sharing Data Product `Cashflow` to SAP Databricks
-This chapter describes the steps how Data Products in SAP Business Data Cloud (SAP BDC) are shared with SAP Databricks. We will use the [**Delta Sharing**](https://www.databricks.com/product/delta-sharing), which is an open protocol developed by Databricks and the Linux Foundation that enables secure, real-time data sharing across different platforms, clouds, and regions. It’s designed to break down data silos and make collaboration easier — WITHOUT requiring to copy data from one system to another.
 
-> [IMPORTANT]
+> [!IMPORTANT]
 > This is only a **read-only** exercise, since sharing data products in SAP Business Data Cloud requires ADMIN rights. The purpose is to illustrate the zero-copy data sharing principle, to get easy access to SAP managed and standardized data product economy.
+
+This chapter describes the steps how Data Products in SAP Business Data Cloud (SAP BDC) are shared with SAP Databricks. We will use the [**Delta Sharing**](https://www.databricks.com/product/delta-sharing), which is an open protocol developed by Databricks and the Linux Foundation that enables secure, real-time data sharing across different platforms, clouds, and regions. It’s designed to break down data silos and make collaboration easier — WITHOUT requiring to copy data from one system to another.
  
 #### Prequisites
 - You have an BDC system landscape formation with **SAP S/4HANA Cloud Private Edition**
