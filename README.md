@@ -25,6 +25,7 @@ This repository contains the material for the [SAP TechEd 2025](https://www.sap.
 5. Before running the exercises, navigate to the *Unity Catalog* and check in the `My organization` for the following catalogs:
     - `uc_cash_liquidity_forecast`
     - `uc_delayed_payments`
+      
    Furthermore, you will find in the `Received Deltas Shares` the shared data products from SAP Business Data Cloud:
     - `Cashflow` 
     - `Entry View Journal Entry`
