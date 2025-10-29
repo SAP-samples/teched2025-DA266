@@ -4,12 +4,13 @@
 
 This repository contains the material for the [SAP TechEd 2025](https://www.sap.com/events/teched.html) session called [DA266-Operationalizing AI with SAP Databricks in SAP Business Data Cloud](https://www.sap.com/events/teched/berlin/flow/sap/te25/catalog-inperson/page/catalog/session/1754081071909001LQxU). It covers end-to-end workflows and scripts for two main user case scenarios `Cashflow Prediction` and `Payment Delay Prediction`. The repository is organized to support both learning (Exercise) and reference (Solution) use cases, with each scenario broken down into modular notebooks that guide you through the data science lifecycle. 
 >[!TIP]
->1. **Download this github repository**, and upload the files into your SAP Databricks workspace
->2. **Start with the Exercise notebooks** to follow the guided workflow and implement each step yourself.
->3. **Refer to the Solution notebooks** for completed code and best practices.
->4. **Follow the notebook order** (as indicated by the numbering) for a logical progression from data understanding to publishing a data product.
->5. **Publishing to SAP Business Data Cloud (BDC)**: The final notebook in each scenario demonstrates how to expose your results as a data product using Delta Sharing and the SAP BDC Connect SDK.
->6. **Requirements**: Please read the `Requirements` section below carefully since it contains key information for all exercises.
+>1. **Download this github repository**, you will need to upload the files into your SAP Databricks workspace
+>2. **Requirements**: Please read the `Requirements` section below carefully since it contains key information for all exercises.
+>3. **Start with the Exercise notebooks** to follow the guided workflow and implement each step yourself.
+>4. **Refer to the Solution notebooks** for completed code and best practices.
+>5. **Follow the notebook order** (as indicated by the numbering) for a logical progression from data understanding to publishing a data product.
+>6. **Publishing to SAP Business Data Cloud (BDC)**: The final notebook in each scenario demonstrates how to expose your results as a data product using Delta Sharing and the SAP BDC Connect SDK.
+
 
 ## Exercises
 - ### Use Case 1: Cashflow Prediction
