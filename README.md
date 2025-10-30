@@ -69,7 +69,7 @@ Following pre-requisites should have been already prepared by the system adminis
 
 
 ## Exercises
-- ### Use Case 1: Cashflow Prediction
+- ### Use Case 1: Cashflow Forecast
     - **Scenario**:
         The data scientist wants to forecast the cashflow for the upcoming 6 months and make the result available for reporting. For that he needs to access the cashflow data product from S/4HANA, apply ML/AI model training and forecasting, and share / install the enriched data product in BDC Cockpit and Datasphere. 
 
