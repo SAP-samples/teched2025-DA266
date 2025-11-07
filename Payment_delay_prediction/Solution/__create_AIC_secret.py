@@ -75,7 +75,7 @@ print(AICORE_CLIENT_ID)
 # COMMAND ----------
 
 # MAGIC %md
-# MAGIC **secret**: 0d0fbe1b-d511-4f8f-aa7b-89a586ed32ab$9ElVFf9tb4uzHrSGM8DBRGsXmMyhxatVltJOVYgGEUU=
+# MAGIC **secret**: 0d0fbe1b-d511-4f8f-aa7b-89a586ed32ab$9ElVFf9tb4uzHrSGM8DBRGsXmMyhxatVltJOVYgGEUU
 
 # COMMAND ----------
 
