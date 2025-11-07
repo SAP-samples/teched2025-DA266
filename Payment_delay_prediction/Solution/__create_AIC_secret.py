@@ -72,14 +72,6 @@ put_credentials(scope_name, key_value_pairs)
 AICORE_CLIENT_ID = dbutils.secrets.get(scope = scope_name, key = "AICORE_CLIENT_ID")
 print(AICORE_CLIENT_ID)
 
-# COMMAND ----------
-
-# MAGIC %md
-# MAGIC **secret**: 0d0fbe1b-d511-4f8f-aa7b-89a586ed32ab$9ElVFf9tb4uzHrSGM8DBRGsXmMyhxatVltJOVYgGEUU
-
-# COMMAND ----------
-
-
 
 # COMMAND ----------
 
