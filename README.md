@@ -12,9 +12,9 @@ This repository contains the material for the [SAP TechEd 2025](https://www.sap.
 
 ## Loging SAP Databricks instance and first setups
 1. Users and Password for SAP Databricks
-    - Username: ac239487uXX@sapexperienceacademy.com
+    - Username: ac249863uXX@sapexperienceacademy.com
     - Please replace **XX** above with the **number on your laptop**
-    - Password: **ObbkzupOKF1!**
+    - Password: **ObwYJO3MS91!**
 2. Access to SAP Business Data Cloud Cockpit: https://trial-bdc-core-3.eu10.hcs.cloud.sap/
     - ![](./images/bdc_cockpit_first_login.png)
 3. In the `System Landscape` page click on the SAP Databricks link to access the instance. The url link for that should be: https://accounts.cloud.databricks.com/select-workspace?account_id=779c1dfb-54a0-4c0b-ab10-657b3ea0e70b
