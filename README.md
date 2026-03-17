@@ -12,9 +12,9 @@ This repository contains the material for the [SAP TechEd 2025](https://www.sap.
 
 ## Loging SAP Databricks instance and first setups
 1. Users and Password for SAP Databricks
-    - Username: ac239487uXX@sapexperienceacademy.com
+    - Username: ac285809uXX@sapexperienceacademy.com
     - Please replace **XX** above with the **number on your laptop**
-    - Password: **ObbkzupOKF1!**
+    - Password: **Ob9wo2Rlxu1!**
 2. Access to SAP Business Data Cloud Cockpit: https://trial-bdc-core-3.eu10.hcs.cloud.sap/
     - ![](./images/bdc_cockpit_first_login.png)
 3. In the `System Landscape` page click on the SAP Databricks link to access the instance. The url link for that should be: https://accounts.cloud.databricks.com/select-workspace?account_id=779c1dfb-54a0-4c0b-ab10-657b3ea0e70b
@@ -34,13 +34,13 @@ This repository contains the material for the [SAP TechEd 2025](https://www.sap.
 7. To import the notebook, navigate to your own folder (same as the user email assigned to you) under the `Workspace> Users` tab. In the whitespace, right-click or use the context menu and select `Import`. Then import the file in question from your system's File Explorer.
     - ![import_notebook](./images/import_Notebook.png)
  
-8. For the Python environment the exercises have been run with the python 3.12. Note: This has to be set manually for each notebook individually!
-    - ![python_environment](./images/python_environment.png)
+8. For the Python environment the exercises have been run with the python v5 which is the latest version. Note: Please check for each notebook if you have the environment set properly!
+    - ![python_environment](./images/python_env2.png)
 
-9. Please note, that in the exercises you will be asked to create in the catalog a `<SCHEMA>`, to have a clear separation of the exercise artefacts. The `<SCHEMA>` will follow the pattern `<catalog_name>.grp`+`<last_2_digits_of_user>`.
-    - e.g. user ac229588u**01** will create correspondingly the schemas
-        - `uc_cash_liquidity_forecast.grp01`
-        - `uc_delayed_payments.grp01` 
+9. Please note, that in the exercises you will be asked to create in the catalog a `<SCHEMA>`, to have a clear separation of the exercise artefacts. The `<SCHEMA>` will follow the pattern `<catalog_name>.dsag`+`<last_2_digits_of_user>`.
+    - e.g. user ac285809u**01** will create correspondingly the schemas
+        - `uc_cash_liquidity_forecast.dsag01`
+        - `uc_delayed_payments.dsag01` 
       
       ![unity_catalog_schema](./images/unity_catalog_schema.png)
 
