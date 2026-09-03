@@ -1,3 +1,5 @@
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2025-DA266)](https://api.reuse.software/info/github.com/SAP-samples/teched2025-DA266)
+
 # DA266 - Operationalizing AI with SAP Databricks in SAP Business Data Cloud
 
 ## Description
